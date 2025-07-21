@@ -1,0 +1,257 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Speedee, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;
+   
+}
+li{
+     cursor: pointer;
+}
+
+/*Header*/
+header{
+
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.4rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  height: 90px;
+  padding: 20px;
+  top: 0;
+  z-index: 1000;
+  
+}
+
+.main-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    padding: 10px;
+    margin-right: 50px;
+
+}
+header .main-header .upper-div{
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    cursor: pointer;
+    
+  
+   width: 960px; 
+   height: 40px;
+   padding: 10px;
+}
+header .main-header .upper-div .left ul li{
+    display: inline;
+    margin-left: 10px;
+    font-size: 15px;
+   cursor: pointer;
+}
+
+
+header .main-header .upper-div .right ul li{
+    display: inline;
+    margin-left: 10px;
+    font-size: 1pc;
+    cursor: pointer;
+
+}
+ a{
+        color: rgb(45, 116, 208);
+    }
+header .main-header .lower-div{
+    display: flex;
+    align-items: center;
+    margin-top: 7px;
+     width: 960px; 
+   height: 40px;
+   padding-top: 5px;   
+}
+
+header .main-header .lower-div ul li{
+    display: inline;
+    margin-left: 15px;
+    font-size: 14.3px;
+    cursor: pointer;
+}
+
+.button{
+    border: none;
+    font-weight: 300;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 15px 25px 15px 25px;
+    background-color: #ffbc0d;
+    width: fit-content !important;
+    display: inline-block !important;
+    white-space: nowrap;
+    
+}
+.gap-word{
+    margin-left: 15px;
+    
+}
+
+
+
+.main-container{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    margin: 40px 200px 40px 200px ;
+    width: 1400px;
+    height: 500px;
+
+}
+.main-container .pic{
+    height: 400px;
+    width: 800px;
+    background-color: red;
+}
+.main-container .pic img{
+    height: 100%;
+    width: 100%;
+
+}
+.main-container .item{
+    
+    min-height: 400px;
+    width: 450px;
+    box-sizing: content-box;
+}
+.main-container h1{
+  font-weight: 700;
+font-size: 36px;
+line-height: 50px;
+padding: 15px;
+
+}
+.main-container .item p {
+  font-weight: 200;
+font-size: 18px;
+line-height: 1.42857143;
+justify-content: center;
+
+}
+/* Footer */
+ ul{
+    list-style: none;
+}
+footer .main-foot{
+    padding: 100px 200px;
+    min-height: 720px;
+    width: 657;
+}
+footer .main-foot .list-foot{
+    width: 657;
+    height: 400px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+  
+} 
+footer .main-foot .list-foot .list{
+    width: 200px;
+    min-height: 300px;
+    gap: 3rem;
+   
+} 
+footer .main-foot .list-foot .list h3{
+   margin-top: 13px;
+   margin-bottom: 20px;
+} 
+
+footer .main-foot .list-foot .list ul li{
+    line-height: 22px;
+    margin-bottom: 6px;
+   color: #292929;
+
+}
+footer .main-foot .logo-foot{
+    width: 657;
+    height: 50px;
+     display: flex;
+    align-items: center;
+    justify-content: space-between;
+   margin-bottom: 60px;
+
+}
+footer .main-foot .logo-foot .logo-left{
+    width: 350px;
+    height: 50px;
+
+}
+footer .main-foot .logo-foot .logo-right{
+    width: 300px;
+    height: 50px;
+
+}
+footer .main-foot .logo-foot .logo-left{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+footer .main-foot .logo-foot .logo-right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+footer .main-foot .logo-foot{
+    width: 657;
+    height: 50px;
+     display: flex;
+    align-items: center;
+    justify-content: space-between;
+   margin-bottom: 60px;
+
+}
+.final-foot{
+    color: #292929d4;
+}
+ .final-foot .top-final-foot{
+
+margin-top: 50px;
+
+}
+.final-foot .top-final-foot .foot-logo{
+
+margin-top: 10px;
+
+}
+.final-foot .top-final-foot ul{
+
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+
+}
+.final-foot .bottom-final-foot ul{
+
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+
+}
+.final-foot .bottom-final-foot ul{
+
+    margin-right: 550px;
+    margin-top: 20px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
